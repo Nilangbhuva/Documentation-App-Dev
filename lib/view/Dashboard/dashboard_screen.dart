@@ -1,9 +1,10 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import '../../../controller/controllers.dart';
-import '../../home/home.dart';
-import '../../Budget/budget.dart';
+import 'package:mind_bend_doc/view/Budget/budget.dart';
+
+import '../../controller/controllers.dart';
+import '../home/home.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});

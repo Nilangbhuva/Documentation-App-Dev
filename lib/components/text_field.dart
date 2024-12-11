@@ -45,7 +45,7 @@ class _InputTextFieldState extends State<InputTextField> {
         inputFormatters: widget.inputFormatters,
         textInputAction: widget.textInputType == TextInputType.multiline
             ? TextInputAction.newline
-            : widget.textInputAction,
+            : widget.textInputAction, // Use newline only for multiline
         enabled: widget.enable,
         onChanged: (val) {
           if (widget.onChange != null) {

@@ -20,5 +20,5 @@ class MouModel{
     required this.orgPromised,
     required this.mbPromised,
     required this.lastValidDate,
-  });
+});
 }
